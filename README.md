@@ -15,7 +15,7 @@ Here is a list of my skills:
   * Leadership
 
 #### Follow me at:
-[:avocado: GitHub] (https://github.com/anishalad95)
+[:avocado: GitHub](https://github.com/anishalad95)
 
 ### Finleigh Goyette
 
