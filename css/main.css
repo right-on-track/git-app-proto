@@ -1,7 +1,8 @@
 .Title {
   text-align: center;
   font-family: 'Raleway';
-  font-size: 22px;
+  font-size: 25px;
+  padding:
 }
 
 .hamburger {
@@ -11,9 +12,46 @@
   margin: 6px;
 }
 
-.headings {
-  text-align: left;
-  font-family: 'Raleway';
-  font-size: 18px;
-  padding-left: 15%;
+.menu{
+border: 25px;
 }
+
+.headings {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 30px;
+  padding-left: 15%;
+  width: 700px;
+  height: 500px;
+  border: 5px solid rgb(134, 138, 163);
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px grey;
+  margin-left: 850px;
+}
+
+ ol{
+   font-family: 'Raleway';
+   font-size: 10px;
+   color: rgb(120, 168, 191);
+   text-align: left;
+   margin-top: 10px;
+   padding: 1px;
+ }
+
+.line {
+  text-align: right;
+  padding: none;
+  font-size: 9px;
+  margin-top: 8px;
+  color:rgb(193, 123, 111);
+   /* border-bottom-style: solid;
+   width: 650px;
+   height: 2px;
+   color: rgb(177, 179, 184); */
+ }
+
+.sleep{
+  margin-top: 111px;
+ }
