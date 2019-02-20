@@ -30,6 +30,7 @@ border: 25px;
   box-shadow: 10px 10px 25px grey;
   margin-left: 850px;
 }
+
  ol{
    font-family: 'Raleway';
    font-size: 10px;
@@ -37,20 +38,20 @@ border: 25px;
    text-align: left;
    margin-top: 10px;
    padding: 1px;
-
  }
-  .line {
-    text-align: right;
-    padding: none;
-    font-size: 9px;
-    margin-top: 8px;
-    color:rgb(193, 123, 111);
+
+.line {
+  text-align: right;
+  padding: none;
+  font-size: 9px;
+  margin-top: 8px;
+  color:rgb(193, 123, 111);
    /* border-bottom-style: solid;
    width: 650px;
    height: 2px;
    color: rgb(177, 179, 184); */
  }
 
- .sleep{
-   margin-top: 111px;
+.sleep{
+  margin-top: 111px;
  }
