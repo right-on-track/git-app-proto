@@ -1,0 +1,19 @@
+.Title {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 22px;
+}
+
+.hamburger {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6px;
+}
+
+.headings {
+  text-align: left;
+  font-family: 'Raleway';
+  font-size: 18px;
+  padding-left: 15%;
+}
