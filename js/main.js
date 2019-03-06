@@ -45,21 +45,27 @@ let alldata= [
     weight: `154`
   }
 ]
+let htmlOutput = alldata.map(daySleep =>
 
-alldata.forEach( rtrack => {
+  `<p>You got ${daySleep.sleep} Hrs of sleep on ${daySleep.day.month}-${daySleep.day.date}!</p>`).join('');
 
+// Put the paragraphs into the fruits output div
+document.getElementById('sleepdays').innerHTML = htmlOutput;
 
-document.getElementById('righttrack').innerHTML +=
-    `<li class="user">
-      <div>${rtrack.day.month}-${rtrack.day.date}</div>
-      <div>${rtrack.sleep} Hrs</div>
-      <div>${rtrack.weight} Hrs</div>
-      <div>${rtrack.water} Ozs</div>
-      <div>${rtrack.steps} Steps</div>
-      <div>${rtrack.active} Hrs</div>
-     </li>`;
-
-} );
+// alldata.forEach( rtrack => {
+//
+//
+// document.getElementById('righttrack').innerHTML +=
+//     `<li class="user">
+//       <div>${rtrack.day.month}-${rtrack.day.date}</div>
+//       <div>${rtrack.sleep} Hrs</div>
+//       <div>${rtrack.weight} Hrs</div>
+//       <div>${rtrack.water} Ozs</div>
+//       <div>${rtrack.steps} Steps</div>
+//       <div>${rtrack.active} Hrs</div>
+//      </li>`;
+//
+// } );
 
 // let weightdata= [
 //   {

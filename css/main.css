@@ -2,7 +2,6 @@
   text-align: center;
   font-family: 'Raleway';
   font-size: 25px;
-  padding:
 }
 
 .hamburger {
@@ -22,13 +21,12 @@ border: 25px;
   font-size: 30px;
   padding-left: 15%;
   width: 700px;
-  height: 500px;
+  height: 300px;
   border: 5px solid rgb(134, 138, 163);
   padding: 25px;
   margin: 25px;
   border-radius: 10px;
   box-shadow: 10px 10px 25px grey;
-  /*margin-left: 850px;*/
 }
 
  ol{
@@ -40,7 +38,7 @@ border: 25px;
    padding: 1px;
  }
 
-.line {
+/* .line {
   text-align: right;
   padding: none;
   font-size: 9px;
@@ -49,14 +47,18 @@ border: 25px;
    width: 650px;
    height: 2px;
    color: rgb(177, 179, 184); */
- }
+
 
 .sleep{
-  margin-top: 111px;
+  font-size: 25px
  }
 
  .day {
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-top: 8px;
+   text-align: center;
+   padding: none;
+   font-size: 15px;
+   color:rgb(193, 123, 111);
  }
