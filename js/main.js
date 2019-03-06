@@ -1,82 +1,101 @@
 
-// let weightdata= [
-//   {
-//     month: `Oct`,
-//     year: `2018`,
-//     weight: "154 lbs",
-//   }
-//   {
-//     month: `Nov`,
-//     year: `2018`,
-//     weight: "150 lbs",
-//   }
-//   {
-//     month: `Dec`,
-//     year: `2018`,
-//     weight: "156 lbs",
-//   }
-//   {
-//     month: `Jan`,
-//     year: `2019`,
-//     weight: "150 lbs",
-//   }
-//   {
-//     month: `Feb`,
-//     year: `2019`,
-//     weight: "148 lbs",
-//   }
-// ]
-
-
-// let alldata= [
-//   {
-//     day: {
-//       month:`Jan`,
-//       date: `30`,
-//     },
-//     sleep: 8,
-//     water: 26,
-//     steps:`7430`,
-//     active:`1.5 Hrs`,
-//   }
-// ]
-
-
-let weightdata= [
+let alldata= [
   {
-    month: `Oct`,
-    year: `2018`,
+    day: {
+      month:`Jan`,
+      date: `30`,
+    },
+    sleep: `8`,
+    water: `26`,
+    steps:`7430`,
+    active:`1.5`,
     weight: `154`
   },
   {
-    month: `Nov`,
-    year: `2018`,
-    weight: `150`
+    day: {
+      month:`Jan`,
+      date: `31`,
+    },
+    sleep: `6.5`,
+    water: `38`,
+    steps:`4987`,
+    active:`30`,
+    weight: `154`
   },
   {
-    month: `Dec`,
-    year: `2018`,
-    weight: `156`
+    day: {
+      month:`Feb`,
+      date: `1`,
+    },
+    sleep: `7`,
+    water: `30`,
+    steps:`5003`,
+    active:`30`,
+    weight: `154`
   },
   {
-    month: `Jan`,
-    year: `2019`,
-    weight: `150`
-  },
-  {
-    month: `Feb`,
-    year: `2019`,
-    weight: `148`
+    day: {
+      month:`Feb`,
+      date: `2`,
+    },
+    sleep: `9.5`,
+    water: `44`,
+    steps:`13884`,
+    active:`1.5`,
+    weight: `154`
   }
 ]
 
-weightdata.forEach( rtrack => {
+alldata.forEach( rtrack => {
 
 
 document.getElementById('righttrack').innerHTML +=
     `<li class="user">
-      <div>${rtrack.month}-${rtrack.year}</div>
-      <div>${rtrack.weight}Lbs</div>
+      <div>${rtrack.day.month}-${rtrack.day.date}</div>
+      <div>${rtrack.sleep} Hrs</div>
+      <div>${rtrack.weight} Hrs</div>
+      <div>${rtrack.water} Ozs</div>
+      <div>${rtrack.steps} Steps</div>
+      <div>${rtrack.active} Hrs</div>
      </li>`;
 
 } );
+
+// let weightdata= [
+//   {
+//     month: `Oct`,
+//     year: `2018`,
+//     weight: `154`
+//   },
+//   {
+//     month: `Nov`,
+//     year: `2018`,
+//     weight: `150`
+//   },
+//   {
+//     month: `Dec`,
+//     year: `2018`,
+//     weight: `156`
+//   },
+//   {
+//     month: `Jan`,
+//     year: `2019`,
+//     weight: `150`
+//   },
+//   {
+//     month: `Feb`,
+//     year: `2019`,
+//     weight: `148`
+//   }
+// ]
+//
+// weightdata.forEach( rtrack => {
+//
+//
+// document.getElementById('pounds').innerHTML +=
+//     `<li class="user">
+//       <div>${pounds.month}-${pounds.year}</div>
+//       <div>${pounds.weight}Lbs</div>
+//      </li>`;
+//
+// } );
