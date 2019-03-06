@@ -44,7 +44,6 @@ border: 25px;
   text-align: right;
   padding: none;
   font-size: 9px;
-  margin-top: 8px;
   color:rgb(193, 123, 111);
    /* border-bottom-style: solid;
    width: 650px;
@@ -54,4 +53,10 @@ border: 25px;
 
 .sleep{
   margin-top: 111px;
+ }
+
+ .day {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 8px;
  }
