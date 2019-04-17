@@ -1,4 +1,76 @@
-.Title {
+body {
+  background-color: #fafafa;
+}
+
+.leftbox{
+  margin: 100px auto;
+  width: 430px;
+  background-color:rgba(252, 62, 113, 0.3);
+}
+
+.rightbox {
+  margin: 100px auto;
+  width: 430px;
+  background-color: darkgrey;
+
+}
+
+.calendar {
+  width: 370px;
+  box-shadow: 0px 0px 35px -16px rgba(0,0,0,0.75);
+  font-family: 'Robot', sans-serif;
+  padding: 20px 30px;
+  color: #363b41;
+  display: inline-block;
+}
+
+.header {
+border-bottom: 2px solid rgba(0,0,0,0.08)
+}
+
+.sub {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+
+.datecard{
+  margin: 20px 0 40px;
+
+}
+
+.date {
+  width: 85%;
+  height: 100px;
+  box-shadow: 0px 0px 52px -18px rgba(0,0,0,0.75);
+  padding:30px;
+  color: #fff;
+}
+
+.number {
+  font-size: 20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.form {
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Title {
   text-align: center;
   font-family: 'Raleway';
   font-size: 25px;
@@ -29,7 +101,7 @@ border: 25px;
   border-radius: 10px;
   box-shadow: 10px 10px 25px grey;
   /*margin-left: 850px;*/
-}
+/*}
 
  ol{
    font-family: 'Raleway';
@@ -59,4 +131,4 @@ border: 25px;
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-top: 8px;
- }
+ } */
