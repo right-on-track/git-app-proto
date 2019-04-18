@@ -8,52 +8,42 @@ let tasks = [
 
 
 
-const allTasks = document.getElementById('alltasks');  // our list of tasks (ol)
-const theTaskForm = document.getElementById('newtask');  // our new task input
+const allTasks = document.getElementById('alltasks');
+const theTaskForm = document.getElementById('newtask');
 
 
-
-// WHEN THE "NEW TASK" FORM IS SUBMIT
 theTaskForm.addEventListener('submit', event => {
-  // Yes the form was submit!!
 
-  // Add the new task as an object to the tasks Array
   tasks.push({
     id: tasks.length,
     name: theTaskForm.task.value,
     complete: false
   });
 
-  // Clear out the input field so we can use it again
+
   theTaskForm.task.value = '';
 
-  // Reprint the new list
+
   printAllTasks();
 
-  // prevent the submit from leaving the page
   event.preventDefault();
 });
 
 
 
-// WHEN A TASK CHECKLIST IS CLICKED
 allTasks.addEventListener('click', event => {
 
-  // Check if the item clicked within the "allTasks" was actually an input item (checkbox!)
+
   if (event.target.matches('input')) {
 
-    // Store the "data-id" value from the checkbox we clicked
     let theId = event.target.dataset.id;
 
-    // Run once for each task in our "tasks" Array
     tasks.forEach(oneTask => {
-      // For each one, check if the id from this task (oneTask.id) matches "theId"
       if (oneTask.id == theId) {
         oneTask.complete = !oneTask.complete;
       }
     })
 
-    // Reprint the whole list again to reflect the new changes to our dataset
     printAllTasks();
   }
 
