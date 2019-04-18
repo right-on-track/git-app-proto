@@ -1,10 +1,9 @@
-// 
-// let tasks = [
-//   { id: 0, name: `Write a "print" function`, complete: false },
-//   { id: 1, name: `Add new tasks`, complete: false },
-//   { id: 2, name: `Complete/checking tasks`, complete: false },
-//   { id: 3, name: `Store the tasks somewhere`, complete: false },
-// ];
+
+let tasks = [
+  { id: 0, name: `Run 10 miles`, complete: false },
+  { id: 1, name: `Drink 40 Oz of Water`, complete: true },
+  { id: 2, name: `Eat 1500 calories`, complete: false },
+];
 
 
 
@@ -70,10 +69,10 @@ function printAllTasks() {
   allTasks.innerHTML = tasks.map(oneTask =>
     `<li class="task${  (oneTask.complete) ? ' complete' : ''  }">
       <label>
-        <input type="checkbox"
-               data-id="${ oneTask.id }"
-               name="task${ oneTask.id }"
-               ${  (oneTask.complete) ? ' checked' : ''  }>
+      <input type="checkbox"
+              data-id="${ oneTask.id }"
+              name="task${ oneTask.id }"
+              ${  (oneTask.complete) ? ' checked' : ''  }>
         ${ oneTask.name }
       </label>
     </li>` ).join('');

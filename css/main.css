@@ -12,7 +12,7 @@ body {
   margin: 100px auto;
   width: 430px;
   background-color: darkgrey
-  ;
+
 
 }
 
@@ -30,10 +30,15 @@ border-bottom: 2px solid rgba(0,0,0,0.08)
 }
 
 .sub {
-  color: lightgrey;
+  color: rgba(176, 29, 148, 0.67);
   font-size: 20px;
 }
 
+ul {
+  margin: auto;
+
+  list-style-type: none
+}
 
 .datecard{
   margin: 20px 0 40px;
@@ -42,7 +47,7 @@ border-bottom: 2px solid rgba(0,0,0,0.08)
 
 .date {
   width: 85%;
-  height: 100px;
+  height: 300px;
   box-shadow: 0px 0px 52px -18px rgba(0,0,0,0.75);
   padding:30px;
   color: #fff;
@@ -55,81 +60,6 @@ border-bottom: 2px solid rgba(0,0,0,0.08)
 }
 
 .form {
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .Title {
   text-align: center;
-  font-family: 'Raleway';
-  font-size: 25px;
-  padding:
+  padding: 20px
 }
-
-.hamburger {
-  width: 25px;
-  height: 2px;
-  background-color: black;
-  margin: 6px;
-}
-
-.menu{
-border: 25px;
-}
-
-.headings {
-  text-align: center;
-  font-family: 'Raleway';
-  font-size: 30px;
-  padding-left: 15%;
-  width: 700px;
-  height: 500px;
-  border: 5px solid rgb(134, 138, 163);
-  padding: 25px;
-  margin: 25px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 25px grey;
-  /*margin-left: 850px;*/
-/*}
-
- ol{
-   font-family: 'Raleway';
-   font-size: 10px;
-   color: rgb(120, 168, 191);
-   text-align: left;
-   margin-top: 10px;
-   padding: 1px;
- }
-
-.line {
-  text-align: right;
-  padding: none;
-  font-size: 9px;
-  color:rgb(193, 123, 111);
-   /* border-bottom-style: solid;
-   width: 650px;
-   height: 2px;
-   color: rgb(177, 179, 184); */
- }
-
-.sleep{
-  margin-top: 111px;
- }
-
- .day {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   margin-top: 8px;
- } */
